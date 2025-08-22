@@ -11,8 +11,6 @@ A Python-based pipeline that uses [CrewAI](https://github.com/joaomdmoura/crewAI
 
 - **Modular agents** for data fetching, processing, and reporting
 - **Configurable LLM provider and model** via CLI (`--model`) or environment variable
-- **RAG (retrieval-augmented generation)** support for context from filings, YouTube, and X
-- **Clean outputs** for further analysis or dashboards
 
 ---
 
