@@ -19,7 +19,7 @@ from crewai import Agent, Task, Crew, Process
 from litellm import completion
 
 SEC_ATOM_RECENT = "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&count=200&output=atom"
-DEFAULT_USER_AGENT = os.getenv("SEC_USER_AGENT", "siddharthkoli843@gmail.com CrewAI-SEC-Task")
+DEFAULT_USER_AGENT = os.getenv("SEC_USER_AGENT", "youremail@gmail.com CrewAI-SEC-Task")
 
 MODEL = os.getenv("GROQ_MODEL", "groq/llama-3.1-8b-instant")
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
