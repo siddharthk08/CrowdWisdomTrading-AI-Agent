@@ -3,7 +3,6 @@
 A Python-based pipeline that uses [CrewAI](https://github.com/joaomdmoura/crewAI), [LiteLLM](https://docs.litellm.ai/), and other tools to:
 - Fetch recent SEC filings (last 48 hours) via EDGAR Atom feeds
 - Aggregate data and perform lightweight sentiment analysis using a chosen LLM (Groq, Hugging Face, etc.)
-- Collect additional context from YouTube and X (Twitter) URLs
 - Save a consolidated report (JSON and CSV)
 
 ---
