@@ -29,8 +29,8 @@ A Python-based pipeline that uses [CrewAI](https://github.com/joaomdmoura/crewAI
 
 1. **Clone this repo:**
    ```bash
-   git clone https://github.com/yourusername/crewai-sec-task.git
-   cd crewai-sec-task
+   git clone https://github.com/siddharthk08/CrowdWisdomTrading-AI-Agent.git
+   cd CrowdWisdomTrading-AI-Agent
 
 2. **Create and activate a virtual environment:**
 
