@@ -34,16 +34,16 @@ A Python-based pipeline that uses [CrewAI](https://github.com/joaomdmoura/crewAI
 
 2. **Create and activate a virtual environment:**
 
--python -m venv venv
--source venv/bin/activate   # On Windows: venv\Scripts\activate
+- python -m venv venv
+- source venv/bin/activate   # On Windows: venv\Scripts\activate
 
 
 3.**Install dependencies:**
 
--pip install --upgrade pip
--pip uninstall numpy -y
--pip install "numpy<1.28" "scipy<1.12" scikit-learn
--pip install feedparser requests python-dotenv litellm crewai youtube-transcript-api beautifulsoup4 pandas
+- pip install --upgrade pip
+- pip uninstall numpy -y
+- pip install "numpy<1.28" "scipy<1.12" scikit-learn
+- pip install feedparser requests python-dotenv litellm crewai youtube-transcript-api beautifulsoup4 pandas
 
 #Configuration
 
@@ -51,9 +51,9 @@ A Python-based pipeline that uses [CrewAI](https://github.com/joaomdmoura/crewAI
 
 2.**Create a .env file (or export vars) with:**
 
--GROQ_API_KEY=your_api_key_here          # or HUGGINGFACE_API_KEY if using huggingface provider
--GROQ_MODEL=groq/llama-3.1-8b-instant   # or another provider/model
--SEC_USER_AGENT=you@example.com CrewAI-SEC-Task
+- GROQ_API_KEY=your_api_key_here          # or HUGGINGFACE_API_KEY if using huggingface provider
+- GROQ_MODEL=groq/llama-3.1-8b-instant   # or another provider/model
+- SEC_USER_AGENT=you@example.com CrewAI-SEC-Task
 
 #Command-line Arguments
 ```bash
